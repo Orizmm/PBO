@@ -1,0 +1,16 @@
+1. Output:
+    Nama: null
+    Alamat: null
+    null
+
+2. Output:
+    NIM: A11.2000.00001
+
+3. Output:
+    1. Nama: null
+       Alamat: null
+       NIM: A11.2000.00001
+
+    2. NIM: A11.2000.00001
+       Nama: null
+       Alamat: null
