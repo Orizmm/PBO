@@ -34,4 +34,6 @@ public class Kendaraan {
     public void maju(){
         System.out.println("Kendaraan maju 10m ke depan");
     }
+
+    
 }

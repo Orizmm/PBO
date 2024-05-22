@@ -26,4 +26,11 @@ public class Listrik extends Mobil{
     public void mengisiBaterai(){
         System.out.println("Mobil sedang mengisi baterai");
     }
+
+    public void getData(){
+        super.getData();
+        System.out.println("Jumlah Baterai: "+getJmlBaterai());
+        System.out.println("Daya Motor: "+getDayaMotor());
+        System.out.println("Tipe Baterai: "+getTipeBaterai());
+    }
 }

@@ -20,4 +20,11 @@ public class Mobil extends Kendaraan {
     public void maju(){
         System.out.println("mobil maju 10m ke depan");
     }
+
+    public void getData(){
+        System.out.println("Merek: "+super.getMerek());
+        System.out.println("Tahun: "+super.getTahun());
+        System.out.println("Jumlah Roda: "+super.getJmlRoda());
+        System.out.println("Kecepatan: "+super.getKecepatan());
+    }
 }
