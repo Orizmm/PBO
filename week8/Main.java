@@ -6,6 +6,7 @@ public class Main {
         // int tahun, jmlRoda, kecepatan, cc, jmlBaterai, dayaMotor;
 
         Listrik mobilListrik = new Listrik("Wuling", 2021, 4, 80,"mpv", "kanan", 2, 140, "lithium");
+        mobilListrik.getData();
 
         System.out.println(mobilListrik.getJmlRoda());
         mobilListrik.maju();
